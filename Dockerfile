@@ -3,12 +3,12 @@ FROM tercen/dartrusttidy:1.0.7
 USER root
 WORKDIR /operator
 
-RUN git clone https://github.com/tercen/OPERATOR_NAME.git
+RUN git clone https://github.com/fcadete/tercen_test_n_cores_R
 
-WORKDIR /operator/OPERATOR_NAME
+WORKDIR /operator/tercen_test_n_cores_R
 
-RUN echo X.X.X && git pull
-RUN git checkout X.X.X
+RUN echo 0.0.1 && git pull
+RUN git checkout
 
 RUN R -e "renv::restore(confirm=FALSE)"
 

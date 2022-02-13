@@ -3,8 +3,8 @@
   "description": "DESCRIPTION",
   "tags": ["template"],
   "authors": ["tercen"],
-  "urls": ["https://github.com/tercen/OPERATOR_NAME"],
-  "container": "tercen/CONTAINER_NAME:TAG",
+  "urls": ["https://github.com/fcadete/tercen_test_n_cores_R"],
+  "container": "fcadete/tercen_test_n_cores:0.0.1",
   "isWebApp": false
 }
 
